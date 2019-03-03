@@ -12,7 +12,7 @@
  * the License.
  */
 
-package rd.crossbinder.config.commons;
+package id.crossbinder.config.commons;
 
 import org.apache.commons.lang3.StringUtils;
 

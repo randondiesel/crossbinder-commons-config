@@ -8,16 +8,16 @@
 	</prerequisites>
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>rd.crossbinder</groupId>
-	<artifactId>rd.crossbinder.commons-config</artifactId>
+	<groupId>id.crossbinder</groupId>
+	<artifactId>id.crossbinder.commons-config</artifactId>
 	<version>0.4-SNAPSHOT</version>
 	<name>Crossbinder Commons Configuration</name>
 	<description>A configuration provider for Crossbinder using Apache Commons Configuration</description>
 	<packaging>jar</packaging>
 
 	<scm>
-		<url>https://github.com/randondiesel/crossbinder-commons-config.git</url>
-		<connection>scm:git:https://github.com/randondiesel/crossbinder-commons-config.git</connection>
+		<url>https://github.com/indroneel/crossbinder-commons-config.git</url>
+		<connection>scm:git:https://github.com/indroneel/crossbinder-commons-config.git</connection>
 	</scm>
 
 	<build>
@@ -70,8 +70,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>rd.crossbinder</groupId>
-			<artifactId>rd.crossbinder.hod</artifactId>
+			<groupId>id.crossbinder</groupId>
+			<artifactId>id.crossbinder.hod</artifactId>
 			<version>0.5-SNAPSHOT</version>
 		</dependency>
 		<dependency>
@@ -83,11 +83,11 @@
 
 	<distributionManagement>
 		<repository>
-			<id>randondiesel-release</id>
+			<id>indr-release</id>
 			<url>${deploy.release.url}</url>
 		</repository>
 		<snapshotRepository>
-			<id>randondiesel-snapshot</id>
+			<id>indr-snapshot</id>
 			<url>${deploy.snapshot.url}</url>
 		</snapshotRepository>
 	</distributionManagement>

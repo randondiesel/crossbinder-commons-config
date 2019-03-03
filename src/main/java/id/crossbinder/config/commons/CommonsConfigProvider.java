@@ -12,7 +12,7 @@
  * the License.
  */
 
-package rd.crossbinder.config.commons;
+package id.crossbinder.config.commons;
 
 import java.io.File;
 import java.io.FileReader;
@@ -29,7 +29,7 @@ import org.apache.commons.configuration2.PropertiesConfiguration;
 import org.apache.commons.configuration2.XMLConfiguration;
 import org.apache.commons.configuration2.YAMLConfiguration;
 
-import rd.crossbinder.hod.ConfigurationProvider;
+import id.crossbinder.hod.ConfigurationProvider;
 
 /**
  *
